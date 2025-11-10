@@ -76,6 +76,7 @@
             acercadeToolStripMenuItem = new ToolStripMenuItem();
             pnlContenido = new Panel();
             btn_Salir = new Button();
+            lblBienvenida = new Label();
             menuStrip1.SuspendLayout();
             pnlContenido.SuspendLayout();
             SuspendLayout();
@@ -394,7 +395,10 @@
             // 
             // pnlContenido
             // 
+            pnlContenido.AutoSize = true;
+            pnlContenido.BackColor = Color.Transparent;
             pnlContenido.Controls.Add(btn_Salir);
+            pnlContenido.Controls.Add(lblBienvenida);
             pnlContenido.Dock = DockStyle.Fill;
             pnlContenido.Location = new Point(0, 29);
             pnlContenido.Name = "pnlContenido";
@@ -411,6 +415,17 @@
             btn_Salir.UseVisualStyleBackColor = true;
             btn_Salir.Click += btn_Salir_Click;
             // 
+            // lblBienvenida
+            // 
+            lblBienvenida.Anchor = AnchorStyles.None;
+            lblBienvenida.AutoSize = true;
+            lblBienvenida.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            lblBienvenida.Location = new Point(246, 262);
+            lblBienvenida.Name = "lblBienvenida";
+            lblBienvenida.Size = new Size(96, 37);
+            lblBienvenida.TabIndex = 1;
+            lblBienvenida.Text = "label1";
+            // 
             // frm_Dashboard
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
@@ -422,10 +437,13 @@
             MainMenuStrip = menuStrip1;
             Margin = new Padding(5);
             Name = "frm_Dashboard";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Principal";
+            Load += frm_Dashboard_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             pnlContenido.ResumeLayout(false);
+            pnlContenido.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -480,5 +498,6 @@
         private ToolStripMenuItem administrarEmpleosToolStripMenuItem;
         private ToolStripMenuItem descuentosToolStripMenuItem;
         private ToolStripMenuItem administrarDescuentosToolStripMenuItem;
+        private Label lblBienvenida;
     }
 }

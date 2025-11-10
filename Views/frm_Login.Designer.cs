@@ -34,6 +34,9 @@
             txtContrasena = new TextBox();
             btnLogin = new Button();
             btnSalir = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // lblUsuario
@@ -78,7 +81,7 @@
             // btnLogin
             // 
             btnLogin.Font = new Font("Segoe UI", 14F);
-            btnLogin.Location = new Point(54, 233);
+            btnLogin.Location = new Point(54, 219);
             btnLogin.Margin = new Padding(5);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(157, 50);
@@ -90,7 +93,7 @@
             // btnSalir
             // 
             btnSalir.Font = new Font("Segoe UI", 14F);
-            btnSalir.Location = new Point(283, 233);
+            btnSalir.Location = new Point(283, 219);
             btnSalir.Margin = new Padding(5);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(157, 50);
@@ -99,17 +102,50 @@
             btnSalir.UseVisualStyleBackColor = true;
             btnSalir.Click += btnSalir_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 10F);
+            label1.Location = new Point(66, 304);
+            label1.Name = "label1";
+            label1.Size = new Size(426, 19);
+            label1.TabIndex = 6;
+            label1.Text = "Para las credenciales usar Nombre y Apellido de la tabla Empleados )";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            label2.Location = new Point(26, 304);
+            label2.Name = "label2";
+            label2.Size = new Size(46, 19);
+            label2.TabIndex = 7;
+            label2.Text = "Nota:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 10F);
+            label3.Location = new Point(18, 303);
+            label3.Name = "label3";
+            label3.Size = new Size(13, 19);
+            label3.TabIndex = 8;
+            label3.Text = "(";
+            // 
             // frm_Login
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(514, 332);
+            Controls.Add(label1);
             Controls.Add(btnSalir);
             Controls.Add(btnLogin);
             Controls.Add(txtContrasena);
             Controls.Add(txtUsuario);
             Controls.Add(lblContrasena);
             Controls.Add(lblUsuario);
+            Controls.Add(label3);
+            Controls.Add(label2);
             Font = new Font("Segoe UI", 14F);
             Margin = new Padding(5);
             Name = "frm_Login";
@@ -126,5 +162,9 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnSalir;
         #endregion
+
+        private Label label1;
+        private Label label2;
+        private Label label3;
     }
 }

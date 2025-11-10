@@ -53,7 +53,7 @@
             // 
             lblTituloPrincipal.AutoSize = true;
             lblTituloPrincipal.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            lblTituloPrincipal.Location = new Point(320, 18);
+            lblTituloPrincipal.Location = new Point(364, 21);
             lblTituloPrincipal.Name = "lblTituloPrincipal";
             lblTituloPrincipal.Size = new Size(180, 25);
             lblTituloPrincipal.TabIndex = 0;
@@ -63,7 +63,7 @@
             // 
             lblStoreId.AutoSize = true;
             lblStoreId.Font = new Font("Segoe UI", 14.25F);
-            lblStoreId.Location = new Point(66, 79);
+            lblStoreId.Location = new Point(148, 83);
             lblStoreId.Name = "lblStoreId";
             lblStoreId.Size = new Size(96, 25);
             lblStoreId.TabIndex = 1;
@@ -72,7 +72,7 @@
             // txtStoreId
             // 
             txtStoreId.Font = new Font("Microsoft Sans Serif", 14.25F);
-            txtStoreId.Location = new Point(194, 79);
+            txtStoreId.Location = new Point(276, 83);
             txtStoreId.Name = "txtStoreId";
             txtStoreId.Size = new Size(180, 29);
             txtStoreId.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             lblStoreName.AutoSize = true;
             lblStoreName.Font = new Font("Segoe UI", 14.25F);
-            lblStoreName.Location = new Point(66, 114);
+            lblStoreName.Location = new Point(148, 118);
             lblStoreName.Name = "lblStoreName";
             lblStoreName.Size = new Size(85, 25);
             lblStoreName.TabIndex = 3;
@@ -90,7 +90,7 @@
             // txtStoreName
             // 
             txtStoreName.Font = new Font("Microsoft Sans Serif", 14.25F);
-            txtStoreName.Location = new Point(194, 114);
+            txtStoreName.Location = new Point(276, 118);
             txtStoreName.Name = "txtStoreName";
             txtStoreName.Size = new Size(460, 29);
             txtStoreName.TabIndex = 4;
@@ -99,7 +99,7 @@
             // 
             lblAddress.AutoSize = true;
             lblAddress.Font = new Font("Segoe UI", 14.25F);
-            lblAddress.Location = new Point(66, 149);
+            lblAddress.Location = new Point(148, 153);
             lblAddress.Name = "lblAddress";
             lblAddress.Size = new Size(96, 25);
             lblAddress.TabIndex = 5;
@@ -108,7 +108,7 @@
             // txtAddress
             // 
             txtAddress.Font = new Font("Microsoft Sans Serif", 14.25F);
-            txtAddress.Location = new Point(194, 149);
+            txtAddress.Location = new Point(276, 153);
             txtAddress.Name = "txtAddress";
             txtAddress.Size = new Size(460, 29);
             txtAddress.TabIndex = 6;
@@ -117,7 +117,7 @@
             // 
             lblCity.AutoSize = true;
             lblCity.Font = new Font("Segoe UI", 14.25F);
-            lblCity.Location = new Point(66, 184);
+            lblCity.Location = new Point(148, 188);
             lblCity.Name = "lblCity";
             lblCity.Size = new Size(76, 25);
             lblCity.TabIndex = 7;
@@ -126,7 +126,7 @@
             // txtCity
             // 
             txtCity.Font = new Font("Microsoft Sans Serif", 14.25F);
-            txtCity.Location = new Point(194, 184);
+            txtCity.Location = new Point(276, 188);
             txtCity.Name = "txtCity";
             txtCity.Size = new Size(180, 29);
             txtCity.TabIndex = 8;
@@ -135,7 +135,7 @@
             // 
             lblState.AutoSize = true;
             lblState.Font = new Font("Segoe UI", 14.25F);
-            lblState.Location = new Point(390, 188);
+            lblState.Location = new Point(472, 192);
             lblState.Name = "lblState";
             lblState.Size = new Size(72, 25);
             lblState.TabIndex = 9;
@@ -145,7 +145,7 @@
             // txtState
             // 
             txtState.Font = new Font("Microsoft Sans Serif", 14.25F);
-            txtState.Location = new Point(484, 184);
+            txtState.Location = new Point(566, 188);
             txtState.Name = "txtState";
             txtState.Size = new Size(170, 29);
             txtState.TabIndex = 10;
@@ -154,7 +154,7 @@
             // 
             lblZip.AutoSize = true;
             lblZip.Font = new Font("Segoe UI", 14.25F);
-            lblZip.Location = new Point(66, 219);
+            lblZip.Location = new Point(148, 223);
             lblZip.Name = "lblZip";
             lblZip.Size = new Size(107, 25);
             lblZip.TabIndex = 11;
@@ -163,7 +163,7 @@
             // txtZip
             // 
             txtZip.Font = new Font("Microsoft Sans Serif", 14.25F);
-            txtZip.Location = new Point(194, 219);
+            txtZip.Location = new Point(276, 223);
             txtZip.Name = "txtZip";
             txtZip.Size = new Size(180, 29);
             txtZip.TabIndex = 12;
@@ -173,7 +173,7 @@
             dgvStores.AllowUserToAddRows = false;
             dgvStores.AllowUserToDeleteRows = false;
             dgvStores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvStores.Location = new Point(64, 282);
+            dgvStores.Location = new Point(146, 286);
             dgvStores.Name = "dgvStores";
             dgvStores.ReadOnly = true;
             dgvStores.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
@@ -183,7 +183,7 @@
             // btnAgregar
             // 
             btnAgregar.Font = new Font("Segoe UI", 14F);
-            btnAgregar.Location = new Point(138, 512);
+            btnAgregar.Location = new Point(220, 516);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(110, 36);
             btnAgregar.TabIndex = 14;
@@ -193,7 +193,7 @@
             // btnEditar
             // 
             btnEditar.Font = new Font("Segoe UI", 14F);
-            btnEditar.Location = new Point(264, 512);
+            btnEditar.Location = new Point(346, 516);
             btnEditar.Name = "btnEditar";
             btnEditar.Size = new Size(110, 36);
             btnEditar.TabIndex = 15;
@@ -203,7 +203,7 @@
             // btnEliminar
             // 
             btnEliminar.Font = new Font("Segoe UI", 14F);
-            btnEliminar.Location = new Point(390, 512);
+            btnEliminar.Location = new Point(472, 516);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(110, 36);
             btnEliminar.TabIndex = 16;
@@ -213,7 +213,7 @@
             // btnLimpiar
             // 
             btnLimpiar.Font = new Font("Segoe UI", 14F);
-            btnLimpiar.Location = new Point(516, 512);
+            btnLimpiar.Location = new Point(598, 516);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(110, 36);
             btnLimpiar.TabIndex = 17;
@@ -224,7 +224,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(773, 580);
+            ClientSize = new Size(915, 580);
             Controls.Add(btnLimpiar);
             Controls.Add(btnEliminar);
             Controls.Add(btnEditar);

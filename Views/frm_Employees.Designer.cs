@@ -57,7 +57,7 @@
             // 
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            lblTitle.Location = new Point(275, 23);
+            lblTitle.Location = new Point(322, 9);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(208, 25);
             lblTitle.TabIndex = 0;
@@ -66,7 +66,7 @@
             // dgvEmployees
             // 
             dgvEmployees.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEmployees.Location = new Point(25, 310);
+            dgvEmployees.Location = new Point(52, 250);
             dgvEmployees.Name = "dgvEmployees";
             dgvEmployees.Size = new Size(783, 212);
             dgvEmployees.TabIndex = 1;
@@ -75,7 +75,7 @@
             // 
             lblEmpId.AutoSize = true;
             lblEmpId.Font = new Font("Segoe UI", 14F);
-            lblEmpId.Location = new Point(25, 80);
+            lblEmpId.Location = new Point(52, 55);
             lblEmpId.Name = "lblEmpId";
             lblEmpId.Size = new Size(123, 25);
             lblEmpId.TabIndex = 2;
@@ -85,7 +85,7 @@
             // 
             lblFname.AutoSize = true;
             lblFname.Font = new Font("Segoe UI", 14F);
-            lblFname.Location = new Point(26, 129);
+            lblFname.Location = new Point(53, 104);
             lblFname.Name = "lblFname";
             lblFname.Size = new Size(85, 25);
             lblFname.TabIndex = 3;
@@ -95,7 +95,7 @@
             // 
             lblMinit.AutoSize = true;
             lblMinit.Font = new Font("Segoe UI", 14F);
-            lblMinit.Location = new Point(25, 222);
+            lblMinit.Location = new Point(52, 197);
             lblMinit.Name = "lblMinit";
             lblMinit.Size = new Size(60, 25);
             lblMinit.TabIndex = 4;
@@ -105,7 +105,7 @@
             // 
             lblLname.AutoSize = true;
             lblLname.Font = new Font("Segoe UI", 14F);
-            lblLname.Location = new Point(25, 177);
+            lblLname.Location = new Point(52, 152);
             lblLname.Name = "lblLname";
             lblLname.Size = new Size(86, 25);
             lblLname.TabIndex = 5;
@@ -115,7 +115,7 @@
             // 
             lblJobId.AutoSize = true;
             lblJobId.Font = new Font("Segoe UI", 14F);
-            lblJobId.Location = new Point(404, 80);
+            lblJobId.Location = new Point(431, 55);
             lblJobId.Name = "lblJobId";
             lblJobId.Size = new Size(102, 25);
             lblJobId.TabIndex = 6;
@@ -125,7 +125,7 @@
             // 
             lblJobLvl.AutoSize = true;
             lblJobLvl.Font = new Font("Segoe UI", 14F);
-            lblJobLvl.Location = new Point(404, 129);
+            lblJobLvl.Location = new Point(431, 104);
             lblJobLvl.Name = "lblJobLvl";
             lblJobLvl.Size = new Size(153, 25);
             lblJobLvl.TabIndex = 7;
@@ -135,7 +135,7 @@
             // 
             lblPubId.AutoSize = true;
             lblPubId.Font = new Font("Segoe UI", 14F);
-            lblPubId.Location = new Point(400, 176);
+            lblPubId.Location = new Point(427, 151);
             lblPubId.Name = "lblPubId";
             lblPubId.Size = new Size(133, 25);
             lblPubId.TabIndex = 8;
@@ -145,7 +145,7 @@
             // 
             lblHireDate.AutoSize = true;
             lblHireDate.Font = new Font("Segoe UI", 14F);
-            lblHireDate.Location = new Point(404, 222);
+            lblHireDate.Location = new Point(431, 197);
             lblHireDate.Name = "lblHireDate";
             lblHireDate.Size = new Size(179, 25);
             lblHireDate.TabIndex = 9;
@@ -154,7 +154,7 @@
             // txtEmpId
             // 
             txtEmpId.Font = new Font("Segoe UI", 14F);
-            txtEmpId.Location = new Point(150, 80);
+            txtEmpId.Location = new Point(177, 55);
             txtEmpId.Name = "txtEmpId";
             txtEmpId.Size = new Size(200, 32);
             txtEmpId.TabIndex = 10;
@@ -162,7 +162,7 @@
             // txtFname
             // 
             txtFname.Font = new Font("Segoe UI", 14F);
-            txtFname.Location = new Point(150, 126);
+            txtFname.Location = new Point(177, 101);
             txtFname.Name = "txtFname";
             txtFname.Size = new Size(200, 32);
             txtFname.TabIndex = 11;
@@ -170,7 +170,7 @@
             // txtMinit
             // 
             txtMinit.Font = new Font("Segoe UI", 14F);
-            txtMinit.Location = new Point(150, 174);
+            txtMinit.Location = new Point(177, 149);
             txtMinit.Name = "txtMinit";
             txtMinit.Size = new Size(200, 32);
             txtMinit.TabIndex = 12;
@@ -178,7 +178,7 @@
             // txtLname
             // 
             txtLname.Font = new Font("Segoe UI", 14F);
-            txtLname.Location = new Point(150, 219);
+            txtLname.Location = new Point(177, 194);
             txtLname.Name = "txtLname";
             txtLname.Size = new Size(200, 32);
             txtLname.TabIndex = 13;
@@ -186,7 +186,7 @@
             // txtJobId
             // 
             txtJobId.Font = new Font("Segoe UI", 14F);
-            txtJobId.Location = new Point(583, 77);
+            txtJobId.Location = new Point(610, 52);
             txtJobId.Name = "txtJobId";
             txtJobId.Size = new Size(200, 32);
             txtJobId.TabIndex = 14;
@@ -194,7 +194,7 @@
             // txtJobLvl
             // 
             txtJobLvl.Font = new Font("Segoe UI", 14F);
-            txtJobLvl.Location = new Point(583, 126);
+            txtJobLvl.Location = new Point(610, 101);
             txtJobLvl.Name = "txtJobLvl";
             txtJobLvl.Size = new Size(200, 32);
             txtJobLvl.TabIndex = 15;
@@ -202,7 +202,7 @@
             // txtPubId
             // 
             txtPubId.Font = new Font("Segoe UI", 14F);
-            txtPubId.Location = new Point(583, 174);
+            txtPubId.Location = new Point(610, 149);
             txtPubId.Name = "txtPubId";
             txtPubId.Size = new Size(200, 32);
             txtPubId.TabIndex = 16;
@@ -210,7 +210,7 @@
             // dtpHireDate
             // 
             dtpHireDate.Font = new Font("Segoe UI", 14F);
-            dtpHireDate.Location = new Point(583, 222);
+            dtpHireDate.Location = new Point(610, 197);
             dtpHireDate.Name = "dtpHireDate";
             dtpHireDate.Size = new Size(200, 32);
             dtpHireDate.TabIndex = 17;
@@ -218,7 +218,7 @@
             // btnAgregar
             // 
             btnAgregar.Font = new Font("Segoe UI", 14F);
-            btnAgregar.Location = new Point(25, 533);
+            btnAgregar.Location = new Point(53, 482);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(100, 35);
             btnAgregar.TabIndex = 18;
@@ -227,7 +227,7 @@
             // btnEditar
             // 
             btnEditar.Font = new Font("Segoe UI", 14F);
-            btnEditar.Location = new Point(231, 533);
+            btnEditar.Location = new Point(259, 482);
             btnEditar.Name = "btnEditar";
             btnEditar.Size = new Size(100, 35);
             btnEditar.TabIndex = 19;
@@ -236,7 +236,7 @@
             // btnEliminar
             // 
             btnEliminar.Font = new Font("Segoe UI", 14F);
-            btnEliminar.Location = new Point(430, 533);
+            btnEliminar.Location = new Point(458, 482);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(100, 35);
             btnEliminar.TabIndex = 20;
@@ -245,7 +245,7 @@
             // btnLimpiar
             // 
             btnLimpiar.Font = new Font("Segoe UI", 14F);
-            btnLimpiar.Location = new Point(708, 533);
+            btnLimpiar.Location = new Point(736, 482);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(100, 35);
             btnLimpiar.TabIndex = 21;
@@ -253,7 +253,7 @@
             // 
             // frm_Employees
             // 
-            ClientSize = new Size(840, 580);
+            ClientSize = new Size(905, 541);
             Controls.Add(lblTitle);
             Controls.Add(dgvEmployees);
             Controls.Add(lblEmpId);
@@ -276,7 +276,7 @@
             Controls.Add(btnEditar);
             Controls.Add(btnEliminar);
             Controls.Add(btnLimpiar);
-            FormBorderStyle = FormBorderStyle.FixedDialog;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frm_Employees";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestión de Empleados";

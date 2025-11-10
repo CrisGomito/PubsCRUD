@@ -1,10 +1,12 @@
-﻿using System;
-using System.Windows.Forms;
+﻿
+using System.Runtime.InteropServices;
 
 namespace PubsCRUD.Views.Dashboard
 {
     public partial class frm_Dashboard : Form
     {
+        [DllImport("user32.dll")]
+        private static extern bool ReleaseCapture();
         public frm_Dashboard()
         {
             InitializeComponent();
@@ -14,13 +16,6 @@ namespace PubsCRUD.Views.Dashboard
         {
             AbrirFormulario(new Views.frm_Authors());
         }
-
-        /*
-                private void frm_Dashboard_Load(object sender, EventArgs e)
-                {
-                    lblBienvenida.Text = "Bienvenido al Sistema Pubs";
-                }
-                */
 
         private void administrarEditoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -62,17 +57,38 @@ namespace PubsCRUD.Views.Dashboard
             Application.Exit();
         }
 
-        // Método genérico para abrir formularios dentro del panel contenedor
         private void AbrirFormulario(Form formHijo)
         {
-            if (this.pnlContenido.Controls.Count > 0)
-                this.pnlContenido.Controls.RemoveAt(0);
+            lblBienvenida.Visible = false;
 
+            ReleaseCapture();
+
+            if (this.pnlContenido.Controls.Count > 0)
+            {
+                var actual = this.pnlContenido.Controls[0] as Form;
+                if (actual != null)
+                {
+                    try
+                    {
+                        actual.Close();
+                        actual.Dispose();
+                    }
+                    catch { /* ignorar errores de cierre */ }
+                }
+                this.pnlContenido.Controls.Clear();
+            }
             formHijo.TopLevel = false;
+            formHijo.FormBorderStyle = FormBorderStyle.None;
             formHijo.Dock = DockStyle.Fill;
             this.pnlContenido.Controls.Add(formHijo);
             this.pnlContenido.Tag = formHijo;
             formHijo.Show();
+        }
+
+        private void frm_Dashboard_Load(object sender, EventArgs e)
+        {
+            lblBienvenida.Text = "¡Bienvenido al Sistema Pubs!";
+            lblBienvenida.Visible = true;
         }
     }
 }

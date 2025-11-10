@@ -51,7 +51,7 @@
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            lblTitulo.Location = new Point(276, 22);
+            lblTitulo.Location = new Point(338, 16);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(184, 25);
             lblTitulo.TabIndex = 0;
@@ -61,7 +61,7 @@
             // 
             lblPubId.AutoSize = true;
             lblPubId.Font = new Font("Segoe UI", 14F);
-            lblPubId.Location = new Point(42, 79);
+            lblPubId.Location = new Point(104, 73);
             lblPubId.Name = "lblPubId";
             lblPubId.Size = new Size(72, 25);
             lblPubId.TabIndex = 1;
@@ -71,7 +71,7 @@
             // 
             lblPubName.AutoSize = true;
             lblPubName.Font = new Font("Segoe UI", 14F);
-            lblPubName.Location = new Point(38, 134);
+            lblPubName.Location = new Point(100, 128);
             lblPubName.Name = "lblPubName";
             lblPubName.Size = new Size(85, 25);
             lblPubName.TabIndex = 3;
@@ -81,7 +81,7 @@
             // 
             lblCity.AutoSize = true;
             lblCity.Font = new Font("Segoe UI", 14F);
-            lblCity.Location = new Point(38, 195);
+            lblCity.Location = new Point(100, 189);
             lblCity.Name = "lblCity";
             lblCity.Size = new Size(76, 25);
             lblCity.TabIndex = 5;
@@ -91,7 +91,7 @@
             // 
             lblState.AutoSize = true;
             lblState.Font = new Font("Segoe UI", 14F);
-            lblState.Location = new Point(450, 76);
+            lblState.Location = new Point(512, 70);
             lblState.Name = "lblState";
             lblState.Size = new Size(72, 25);
             lblState.TabIndex = 7;
@@ -101,7 +101,7 @@
             // 
             lblCountry.AutoSize = true;
             lblCountry.Font = new Font("Segoe UI", 14F);
-            lblCountry.Location = new Point(450, 141);
+            lblCountry.Location = new Point(512, 135);
             lblCountry.Name = "lblCountry";
             lblCountry.Size = new Size(49, 25);
             lblCountry.TabIndex = 9;
@@ -110,7 +110,7 @@
             // txtPubId
             // 
             txtPubId.Font = new Font("Segoe UI", 14F);
-            txtPubId.Location = new Point(132, 76);
+            txtPubId.Location = new Point(194, 70);
             txtPubId.Name = "txtPubId";
             txtPubId.Size = new Size(200, 32);
             txtPubId.TabIndex = 2;
@@ -118,7 +118,7 @@
             // txtPubName
             // 
             txtPubName.Font = new Font("Segoe UI", 14F);
-            txtPubName.Location = new Point(129, 134);
+            txtPubName.Location = new Point(191, 128);
             txtPubName.Name = "txtPubName";
             txtPubName.Size = new Size(250, 32);
             txtPubName.TabIndex = 4;
@@ -126,7 +126,7 @@
             // txtCity
             // 
             txtCity.Font = new Font("Segoe UI", 14F);
-            txtCity.Location = new Point(132, 192);
+            txtCity.Location = new Point(194, 186);
             txtCity.Name = "txtCity";
             txtCity.Size = new Size(250, 32);
             txtCity.TabIndex = 6;
@@ -134,7 +134,7 @@
             // txtState
             // 
             txtState.Font = new Font("Segoe UI", 14F);
-            txtState.Location = new Point(558, 79);
+            txtState.Location = new Point(620, 73);
             txtState.Name = "txtState";
             txtState.Size = new Size(150, 32);
             txtState.TabIndex = 8;
@@ -142,7 +142,7 @@
             // txtCountry
             // 
             txtCountry.Font = new Font("Segoe UI", 14F);
-            txtCountry.Location = new Point(555, 134);
+            txtCountry.Location = new Point(617, 128);
             txtCountry.Name = "txtCountry";
             txtCountry.Size = new Size(153, 32);
             txtCountry.TabIndex = 10;
@@ -150,7 +150,7 @@
             // dgvPublishers
             // 
             dgvPublishers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvPublishers.Location = new Point(43, 259);
+            dgvPublishers.Location = new Point(105, 253);
             dgvPublishers.Name = "dgvPublishers";
             dgvPublishers.Size = new Size(712, 205);
             dgvPublishers.TabIndex = 11;
@@ -158,7 +158,7 @@
             // btnAgregar
             // 
             btnAgregar.Font = new Font("Segoe UI", 14F);
-            btnAgregar.Location = new Point(172, 480);
+            btnAgregar.Location = new Point(231, 495);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(100, 35);
             btnAgregar.TabIndex = 12;
@@ -168,7 +168,7 @@
             // btnEditar
             // 
             btnEditar.Font = new Font("Segoe UI", 14F);
-            btnEditar.Location = new Point(282, 480);
+            btnEditar.Location = new Point(341, 495);
             btnEditar.Name = "btnEditar";
             btnEditar.Size = new Size(100, 35);
             btnEditar.TabIndex = 13;
@@ -178,7 +178,7 @@
             // btnEliminar
             // 
             btnEliminar.Font = new Font("Segoe UI", 14F);
-            btnEliminar.Location = new Point(392, 480);
+            btnEliminar.Location = new Point(451, 495);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(100, 35);
             btnEliminar.TabIndex = 14;
@@ -188,7 +188,7 @@
             // btnLimpiar
             // 
             btnLimpiar.Font = new Font("Segoe UI", 14F);
-            btnLimpiar.Location = new Point(502, 480);
+            btnLimpiar.Location = new Point(561, 495);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(100, 35);
             btnLimpiar.TabIndex = 15;
@@ -199,7 +199,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(813, 527);
+            ClientSize = new Size(889, 575);
             Controls.Add(lblTitulo);
             Controls.Add(lblPubId);
             Controls.Add(txtPubId);

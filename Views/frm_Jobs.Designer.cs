@@ -49,7 +49,7 @@
             // 
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            lblTitle.Location = new Point(253, 24);
+            lblTitle.Location = new Point(314, 24);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(280, 25);
             lblTitle.TabIndex = 0;
@@ -58,7 +58,7 @@
             // dgvJobs
             // 
             dgvJobs.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvJobs.Location = new Point(25, 260);
+            dgvJobs.Location = new Point(86, 260);
             dgvJobs.Name = "dgvJobs";
             dgvJobs.Size = new Size(760, 250);
             dgvJobs.TabIndex = 1;
@@ -66,70 +66,79 @@
             // lblJobId
             // 
             lblJobId.AutoSize = true;
-            lblJobId.Location = new Point(25, 80);
+            lblJobId.Font = new Font("Segoe UI", 14F);
+            lblJobId.Location = new Point(86, 80);
             lblJobId.Name = "lblJobId";
-            lblJobId.Size = new Size(42, 15);
+            lblJobId.Size = new Size(68, 25);
             lblJobId.TabIndex = 2;
             lblJobId.Text = "Job ID:";
             // 
             // lblJobDesc
             // 
             lblJobDesc.AutoSize = true;
-            lblJobDesc.Location = new Point(25, 110);
+            lblJobDesc.Font = new Font("Segoe UI", 14F);
+            lblJobDesc.Location = new Point(86, 129);
             lblJobDesc.Name = "lblJobDesc";
-            lblJobDesc.Size = new Size(72, 15);
+            lblJobDesc.Size = new Size(115, 25);
             lblJobDesc.TabIndex = 3;
             lblJobDesc.Text = "Descripción:";
             // 
             // lblMinLvl
             // 
             lblMinLvl.AutoSize = true;
-            lblMinLvl.Location = new Point(25, 140);
+            lblMinLvl.Font = new Font("Segoe UI", 14F);
+            lblMinLvl.Location = new Point(81, 180);
             lblMinLvl.Name = "lblMinLvl";
-            lblMinLvl.Size = new Size(82, 15);
+            lblMinLvl.Size = new Size(129, 25);
             lblMinLvl.TabIndex = 4;
             lblMinLvl.Text = "Nivel Mínimo:";
             // 
             // lblMaxLvl
             // 
             lblMaxLvl.AutoSize = true;
-            lblMaxLvl.Location = new Point(25, 170);
+            lblMaxLvl.Font = new Font("Segoe UI", 14F);
+            lblMaxLvl.Location = new Point(81, 222);
             lblMaxLvl.Name = "lblMaxLvl";
-            lblMaxLvl.Size = new Size(84, 15);
+            lblMaxLvl.Size = new Size(132, 25);
             lblMaxLvl.TabIndex = 5;
             lblMaxLvl.Text = "Nivel Máximo:";
             // 
             // txtJobId
             // 
-            txtJobId.Location = new Point(150, 80);
+            txtJobId.Font = new Font("Segoe UI", 14F);
+            txtJobId.Location = new Point(240, 80);
             txtJobId.Name = "txtJobId";
-            txtJobId.Size = new Size(200, 23);
+            txtJobId.Size = new Size(200, 32);
             txtJobId.TabIndex = 6;
             // 
             // txtJobDesc
             // 
-            txtJobDesc.Location = new Point(150, 110);
+            txtJobDesc.Font = new Font("Segoe UI", 14F);
+            txtJobDesc.Location = new Point(240, 129);
             txtJobDesc.Name = "txtJobDesc";
-            txtJobDesc.Size = new Size(400, 23);
+            txtJobDesc.Size = new Size(400, 32);
             txtJobDesc.TabIndex = 7;
             // 
             // txtMinLvl
             // 
-            txtMinLvl.Location = new Point(150, 140);
+            txtMinLvl.Font = new Font("Segoe UI", 14F);
+            txtMinLvl.Location = new Point(240, 177);
             txtMinLvl.Name = "txtMinLvl";
-            txtMinLvl.Size = new Size(200, 23);
+            txtMinLvl.Size = new Size(200, 32);
             txtMinLvl.TabIndex = 8;
             // 
             // txtMaxLvl
             // 
-            txtMaxLvl.Location = new Point(150, 170);
+            txtMaxLvl.Font = new Font("Segoe UI", 14F);
+            txtMaxLvl.Location = new Point(240, 219);
             txtMaxLvl.Name = "txtMaxLvl";
-            txtMaxLvl.Size = new Size(200, 23);
+            txtMaxLvl.Size = new Size(200, 32);
             txtMaxLvl.TabIndex = 9;
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(25, 210);
+            btnAgregar.Font = new Font("Segoe UI", 14F);
+            btnAgregar.Location = new Point(206, 528);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(100, 35);
             btnAgregar.TabIndex = 10;
@@ -137,7 +146,8 @@
             // 
             // btnEditar
             // 
-            btnEditar.Location = new Point(150, 210);
+            btnEditar.Font = new Font("Segoe UI", 14F);
+            btnEditar.Location = new Point(331, 528);
             btnEditar.Name = "btnEditar";
             btnEditar.Size = new Size(100, 35);
             btnEditar.TabIndex = 11;
@@ -145,7 +155,8 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(275, 210);
+            btnEliminar.Font = new Font("Segoe UI", 14F);
+            btnEliminar.Location = new Point(456, 528);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(100, 35);
             btnEliminar.TabIndex = 12;
@@ -153,7 +164,8 @@
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(400, 210);
+            btnLimpiar.Font = new Font("Segoe UI", 14F);
+            btnLimpiar.Location = new Point(581, 528);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(100, 35);
             btnLimpiar.TabIndex = 13;
@@ -161,7 +173,7 @@
             // 
             // frm_Jobs
             // 
-            ClientSize = new Size(820, 540);
+            ClientSize = new Size(945, 579);
             Controls.Add(lblTitle);
             Controls.Add(dgvJobs);
             Controls.Add(lblJobId);
@@ -176,7 +188,7 @@
             Controls.Add(btnEditar);
             Controls.Add(btnEliminar);
             Controls.Add(btnLimpiar);
-            FormBorderStyle = FormBorderStyle.FixedDialog;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frm_Jobs";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestión de Puestos de Trabajo";

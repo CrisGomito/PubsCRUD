@@ -55,7 +55,7 @@
             // lblAuthorId
             // 
             lblAuthorId.AutoSize = true;
-            lblAuthorId.Location = new Point(40, 30);
+            lblAuthorId.Location = new Point(105, 33);
             lblAuthorId.Name = "lblAuthorId";
             lblAuthorId.Size = new Size(86, 25);
             lblAuthorId.TabIndex = 0;
@@ -64,7 +64,7 @@
             // txtAuthorId
             // 
             txtAuthorId.BackColor = Color.White;
-            txtAuthorId.Location = new Point(140, 27);
+            txtAuthorId.Location = new Point(205, 30);
             txtAuthorId.Name = "txtAuthorId";
             txtAuthorId.ReadOnly = true;
             txtAuthorId.Size = new Size(150, 32);
@@ -73,7 +73,7 @@
             // lblFirstName
             // 
             lblFirstName.AutoSize = true;
-            lblFirstName.Location = new Point(40, 65);
+            lblFirstName.Location = new Point(105, 68);
             lblFirstName.Name = "lblFirstName";
             lblFirstName.Size = new Size(85, 25);
             lblFirstName.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             // txtFirstName
             // 
-            txtFirstName.Location = new Point(140, 62);
+            txtFirstName.Location = new Point(205, 65);
             txtFirstName.Name = "txtFirstName";
             txtFirstName.Size = new Size(220, 32);
             txtFirstName.TabIndex = 3;
@@ -89,7 +89,7 @@
             // lblLastName
             // 
             lblLastName.AutoSize = true;
-            lblLastName.Location = new Point(40, 100);
+            lblLastName.Location = new Point(105, 103);
             lblLastName.Name = "lblLastName";
             lblLastName.Size = new Size(86, 25);
             lblLastName.TabIndex = 4;
@@ -97,7 +97,7 @@
             // 
             // txtLastName
             // 
-            txtLastName.Location = new Point(140, 97);
+            txtLastName.Location = new Point(205, 100);
             txtLastName.Name = "txtLastName";
             txtLastName.Size = new Size(220, 32);
             txtLastName.TabIndex = 5;
@@ -105,7 +105,7 @@
             // lblPhone
             // 
             lblPhone.AutoSize = true;
-            lblPhone.Location = new Point(40, 135);
+            lblPhone.Location = new Point(105, 138);
             lblPhone.Name = "lblPhone";
             lblPhone.Size = new Size(88, 25);
             lblPhone.TabIndex = 6;
@@ -113,7 +113,7 @@
             // 
             // txtPhone
             // 
-            txtPhone.Location = new Point(140, 132);
+            txtPhone.Location = new Point(205, 135);
             txtPhone.Name = "txtPhone";
             txtPhone.Size = new Size(220, 32);
             txtPhone.TabIndex = 7;
@@ -121,7 +121,7 @@
             // lblAddress
             // 
             lblAddress.AutoSize = true;
-            lblAddress.Location = new Point(40, 170);
+            lblAddress.Location = new Point(105, 173);
             lblAddress.Name = "lblAddress";
             lblAddress.Size = new Size(96, 25);
             lblAddress.TabIndex = 8;
@@ -129,7 +129,7 @@
             // 
             // txtAddress
             // 
-            txtAddress.Location = new Point(140, 167);
+            txtAddress.Location = new Point(205, 170);
             txtAddress.Name = "txtAddress";
             txtAddress.Size = new Size(348, 32);
             txtAddress.TabIndex = 9;
@@ -137,7 +137,7 @@
             // lblCity
             // 
             lblCity.AutoSize = true;
-            lblCity.Location = new Point(40, 205);
+            lblCity.Location = new Point(105, 208);
             lblCity.Name = "lblCity";
             lblCity.Size = new Size(76, 25);
             lblCity.TabIndex = 10;
@@ -145,7 +145,7 @@
             // 
             // txtCity
             // 
-            txtCity.Location = new Point(140, 202);
+            txtCity.Location = new Point(205, 205);
             txtCity.Name = "txtCity";
             txtCity.Size = new Size(150, 32);
             txtCity.TabIndex = 11;
@@ -153,7 +153,7 @@
             // lblState
             // 
             lblState.AutoSize = true;
-            lblState.Location = new Point(310, 205);
+            lblState.Location = new Point(375, 208);
             lblState.Name = "lblState";
             lblState.Size = new Size(72, 25);
             lblState.TabIndex = 12;
@@ -161,7 +161,7 @@
             // 
             // txtState
             // 
-            txtState.Location = new Point(388, 205);
+            txtState.Location = new Point(453, 208);
             txtState.Name = "txtState";
             txtState.Size = new Size(100, 32);
             txtState.TabIndex = 13;
@@ -169,7 +169,7 @@
             // lblZip
             // 
             lblZip.AutoSize = true;
-            lblZip.Location = new Point(508, 208);
+            lblZip.Location = new Point(573, 211);
             lblZip.Name = "lblZip";
             lblZip.Size = new Size(43, 25);
             lblZip.TabIndex = 14;
@@ -177,7 +177,7 @@
             // 
             // txtZip
             // 
-            txtZip.Location = new Point(548, 205);
+            txtZip.Location = new Point(613, 208);
             txtZip.Name = "txtZip";
             txtZip.Size = new Size(100, 32);
             txtZip.TabIndex = 15;
@@ -187,7 +187,7 @@
             dgvAuthors.AllowUserToAddRows = false;
             dgvAuthors.AllowUserToDeleteRows = false;
             dgvAuthors.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAuthors.Location = new Point(40, 260);
+            dgvAuthors.Location = new Point(105, 263);
             dgvAuthors.Name = "dgvAuthors";
             dgvAuthors.ReadOnly = true;
             dgvAuthors.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
@@ -197,7 +197,7 @@
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(40, 480);
+            btnAgregar.Location = new Point(105, 483);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(94, 40);
             btnAgregar.TabIndex = 0;
@@ -206,7 +206,7 @@
             // 
             // btnEditar
             // 
-            btnEditar.Location = new Point(243, 480);
+            btnEditar.Location = new Point(308, 483);
             btnEditar.Name = "btnEditar";
             btnEditar.Size = new Size(82, 40);
             btnEditar.TabIndex = 1;
@@ -215,7 +215,7 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(429, 480);
+            btnEliminar.Location = new Point(494, 483);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(94, 40);
             btnEliminar.TabIndex = 2;
@@ -224,7 +224,7 @@
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(649, 480);
+            btnLimpiar.Location = new Point(714, 483);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(91, 40);
             btnLimpiar.TabIndex = 3;
@@ -233,7 +233,7 @@
             // 
             // frm_Authors
             // 
-            ClientSize = new Size(800, 550);
+            ClientSize = new Size(942, 550);
             Controls.Add(btnAgregar);
             Controls.Add(btnEditar);
             Controls.Add(btnEliminar);
@@ -256,6 +256,7 @@
             Controls.Add(txtAuthorId);
             Controls.Add(lblAuthorId);
             Font = new Font("Segoe UI", 14F);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frm_Authors";
             Text = "Gestión de Autores";
             Load += frm_Authors_Load;

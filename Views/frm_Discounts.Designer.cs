@@ -49,16 +49,16 @@
             // dgvDiscounts
             // 
             dgvDiscounts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvDiscounts.Location = new Point(40, 260);
+            dgvDiscounts.Location = new Point(127, 259);
             dgvDiscounts.Name = "dgvDiscounts";
-            dgvDiscounts.Size = new Size(640, 200);
+            dgvDiscounts.Size = new Size(640, 222);
             dgvDiscounts.TabIndex = 0;
             // 
             // lblDiscountId
             // 
             lblDiscountId.AutoSize = true;
             lblDiscountId.Font = new Font("Segoe UI", 14F);
-            lblDiscountId.Location = new Point(147, 36);
+            lblDiscountId.Location = new Point(212, 40);
             lblDiscountId.Name = "lblDiscountId";
             lblDiscountId.Size = new Size(128, 25);
             lblDiscountId.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             lblStoreId.AutoSize = true;
             lblStoreId.Font = new Font("Segoe UI", 14F);
-            lblStoreId.Location = new Point(147, 76);
+            lblStoreId.Location = new Point(212, 80);
             lblStoreId.Name = "lblStoreId";
             lblStoreId.Size = new Size(96, 25);
             lblStoreId.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             lblLowQty.AutoSize = true;
             lblLowQty.Font = new Font("Segoe UI", 14F);
-            lblLowQty.Location = new Point(147, 116);
+            lblLowQty.Location = new Point(212, 120);
             lblLowQty.Name = "lblLowQty";
             lblLowQty.Size = new Size(160, 25);
             lblLowQty.TabIndex = 3;
@@ -88,7 +88,7 @@
             // 
             lblHighQty.AutoSize = true;
             lblHighQty.Font = new Font("Segoe UI", 14F);
-            lblHighQty.Location = new Point(147, 156);
+            lblHighQty.Location = new Point(212, 160);
             lblHighQty.Name = "lblHighQty";
             lblHighQty.Size = new Size(163, 25);
             lblHighQty.TabIndex = 4;
@@ -98,7 +98,7 @@
             // 
             lblDiscount.AutoSize = true;
             lblDiscount.Font = new Font("Segoe UI", 14F);
-            lblDiscount.Location = new Point(147, 196);
+            lblDiscount.Location = new Point(212, 200);
             lblDiscount.Name = "lblDiscount";
             lblDiscount.Size = new Size(138, 25);
             lblDiscount.TabIndex = 5;
@@ -107,7 +107,7 @@
             // txtDiscountId
             // 
             txtDiscountId.Font = new Font("Segoe UI", 14F);
-            txtDiscountId.Location = new Point(346, 36);
+            txtDiscountId.Location = new Point(411, 40);
             txtDiscountId.Name = "txtDiscountId";
             txtDiscountId.Size = new Size(200, 32);
             txtDiscountId.TabIndex = 6;
@@ -115,7 +115,7 @@
             // txtStoreId
             // 
             txtStoreId.Font = new Font("Segoe UI", 14F);
-            txtStoreId.Location = new Point(346, 76);
+            txtStoreId.Location = new Point(411, 80);
             txtStoreId.Name = "txtStoreId";
             txtStoreId.Size = new Size(200, 32);
             txtStoreId.TabIndex = 7;
@@ -123,7 +123,7 @@
             // txtLowQty
             // 
             txtLowQty.Font = new Font("Segoe UI", 14F);
-            txtLowQty.Location = new Point(346, 116);
+            txtLowQty.Location = new Point(411, 120);
             txtLowQty.Name = "txtLowQty";
             txtLowQty.Size = new Size(200, 32);
             txtLowQty.TabIndex = 8;
@@ -131,7 +131,7 @@
             // txtHighQty
             // 
             txtHighQty.Font = new Font("Segoe UI", 14F);
-            txtHighQty.Location = new Point(346, 156);
+            txtHighQty.Location = new Point(411, 160);
             txtHighQty.Name = "txtHighQty";
             txtHighQty.Size = new Size(200, 32);
             txtHighQty.TabIndex = 9;
@@ -139,7 +139,7 @@
             // txtDiscount
             // 
             txtDiscount.Font = new Font("Segoe UI", 14F);
-            txtDiscount.Location = new Point(346, 196);
+            txtDiscount.Location = new Point(411, 200);
             txtDiscount.Name = "txtDiscount";
             txtDiscount.Size = new Size(200, 32);
             txtDiscount.TabIndex = 10;
@@ -147,42 +147,42 @@
             // btnNuevo
             // 
             btnNuevo.Font = new Font("Segoe UI", 14F);
-            btnNuevo.Location = new Point(40, 477);
+            btnNuevo.Location = new Point(243, 507);
             btnNuevo.Name = "btnNuevo";
-            btnNuevo.Size = new Size(90, 30);
+            btnNuevo.Size = new Size(90, 41);
             btnNuevo.TabIndex = 11;
             btnNuevo.Text = "Nuevo";
             // 
             // btnGuardar
             // 
             btnGuardar.Font = new Font("Segoe UI", 14F);
-            btnGuardar.Location = new Point(180, 477);
+            btnGuardar.Location = new Point(351, 507);
             btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(90, 30);
+            btnGuardar.Size = new Size(90, 41);
             btnGuardar.TabIndex = 12;
             btnGuardar.Text = "Guardar";
             // 
             // btnEditar
             // 
             btnEditar.Font = new Font("Segoe UI", 14F);
-            btnEditar.Location = new Point(374, 477);
+            btnEditar.Location = new Point(465, 507);
             btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(90, 30);
+            btnEditar.Size = new Size(90, 41);
             btnEditar.TabIndex = 13;
             btnEditar.Text = "Editar";
             // 
             // btnEliminar
             // 
             btnEliminar.Font = new Font("Segoe UI", 14F);
-            btnEliminar.Location = new Point(590, 477);
+            btnEliminar.Location = new Point(572, 507);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(90, 30);
+            btnEliminar.Size = new Size(90, 41);
             btnEliminar.TabIndex = 14;
             btnEliminar.Text = "Eliminar";
             // 
             // frm_Discounts
             // 
-            ClientSize = new Size(740, 519);
+            ClientSize = new Size(928, 572);
             Controls.Add(dgvDiscounts);
             Controls.Add(lblDiscountId);
             Controls.Add(lblStoreId);
@@ -198,6 +198,7 @@
             Controls.Add(btnGuardar);
             Controls.Add(btnEditar);
             Controls.Add(btnEliminar);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frm_Discounts";
             Text = "Gestión de Descuentos";
             ((System.ComponentModel.ISupportInitialize)dgvDiscounts).EndInit();
